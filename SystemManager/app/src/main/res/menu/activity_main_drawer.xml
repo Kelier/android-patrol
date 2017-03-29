@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_share"
+            android:icon="@drawable/icon_home_drawer"
+            android:title="系统首页" />
+        <item
+            android:id="@+id/nav_camera"
+            android:icon="@drawable/icon_edit"
+            android:title="个人信息" />
+        <item
+            android:id="@+id/nav_gallery"
+            android:icon="@drawable/icon_password_nor"
+            android:title="修改密码" />
+        <item
+            android:id="@+id/nav_slideshow"
+            android:icon="@drawable/icon_refresh_load"
+            android:title="我的工作" />
+
+    </group>
+
+    <item android:title="系统设置">
+        <menu>
+            <item
+                android:id="@+id/nav_manage"
+                android:icon="@drawable/icon_bin_pre"
+                android:title="清除缓存" />
+            <item
+                android:id="@+id/nav_send"
+                android:icon="@drawable/icon_refresh_load"
+                android:title="版本更新" />
+        </menu>
+
+    </item>
+
+
+</menu>

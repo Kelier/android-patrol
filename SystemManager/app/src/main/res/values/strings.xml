@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">SystemManager</string>
+    <string name="action_settings">Settings</string>
+    <string name="bar_firstname">首页</string>
+    <string name="bar_secondname">消息</string>
+    <string name="bar_thirdname">发现</string>
+    <string name="bar_forthname">我的</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+</resources>
